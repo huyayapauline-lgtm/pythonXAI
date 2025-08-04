@@ -1,1 +1,6 @@
-
+print("你好")
+print("Hello, World!")
+print("This is a test script.")
+print("Goodbye!")
+print("这是一个测试脚本。")
+print("End of script.")
