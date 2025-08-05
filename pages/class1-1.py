@@ -70,4 +70,14 @@ print("輸入結束")
 print(int(a) + 10)
 print(type(a))  # 證明透過input()輸入內容都是字串
 
-a = input("請輸入半徑:")
+a = int(input("請輸入半徑:"))
+print(a * a * 3.14)
+
+b = int(input("請輸入國文期中成績:"))
+c = int(input("請輸入國文期末成績:"))
+print("國文平均成績:", (b + c) / 2)
+# 字串格式化
+name = "apple"
+age = 18
+print(f"hello,my name is {name}, and I'm {age} years old.")  # f-string
+# 可以將變數或其他型態的資料放到f字串裡面的{}這樣就可以在字串中顯示
