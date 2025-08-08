@@ -25,7 +25,6 @@ st.markdown("## 按鈕練習")
 # key是按鈕的識別名稱，可以用來區分不同的按鈕
 # 如果使用者點擊按鈕，st.button()會回傳True,否則回傳False
 st.button("點我", key="button1")
-
 if st.button("點我", key="baloons"):
     st.balloons()
     st.balloons()
